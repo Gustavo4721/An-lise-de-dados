@@ -1,3 +1,48 @@
+# Questão 1
+
+frutas = ["maçã", "banana", "laranja", "uva"]
+
+# Questão 2
+
+print(frutas[0])
+print(frutas[-1])
+
+# Questão 3
+
+frutas.append("manga")
+print(frutas)
+
+# Questão 4
+
+frutas.remove("banana")
+print(frutas)
+
+# Questão 5
+
+frutas[1] = "abacaxi"
+print(frutas)
+
+# Questão 6
+
+numeros = list(range(1, 11))
+print(numeros)
+
+# Questão 7
+
+soma = sum(numeros)
+print(soma)
+
+# Questão 8
+
+max = max(numeros)
+print(max)
+min = min(numeros)
+print(min)
+
+# Questão 9
+
+
+
 # Questão 21
 
 nomes = ["Ana", "Pedro", "Maria", "João"]
@@ -48,3 +93,4 @@ for palavra in palavras:
     caracteres.append(caractere)
 
 print(caracteres)
+
